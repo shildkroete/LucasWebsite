@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Willkommen Luca</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        body {
+            background:
+                    linear-gradient(135deg, rgba(30, 41, 59, 0.9), rgba(76, 29, 149, 0.85));
+        }
+
+        .subpage {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 40px;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.08);
+            padding: 40px;
+            border-radius: 24px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 10px 35px rgba(0, 0, 0, 0.3);
+            max-width: 700px;
+        }
+
+        .card h2 {
+            font-size: 2.5rem;
+            margin-bottom: 16px;
+        }
+
+        .card p {
+            margin-bottom: 24px;
+        }
+
+        .back-btn {
+            display: inline-block;
+            padding: 12px 24px;
+            text-decoration: none;
+            color: white;
+            border: 2px solid rgba(255, 255, 255, 0.85);
+            border-radius: 999px;
+            transition: all 0.25s ease;
+        }
+
+        .back-btn:hover {
+            background: white;
+            color: #1e1b4b;
+        }
+    </style>
+</head>
+<body>
+<main class="subpage">
+    <section class="card">
+        <h2>Willkommen, Luca</h2>
+        <p>Du bist jetzt auf der Unterseite gelandet.</p>
+        <a class="back-btn" href="index.html">Zurück</a>
+    </section>
+</main>
+</body>
+</html>
